@@ -1,1 +1,6 @@
-# tree-equivalence-thesis
+# On the Equivalence of tree-based Ensemble Learners with Decision Trees
+
+This bachelor thesis was part of the fulfillment of the degree "B.A. International Business" at Heilbronn University. The structure is twofold. The `preliminaries_thesis` file explains the basics of supervised learning, specifically focusing on decision trees and tree-based ensemble learners. The second part is a collaboration of multiple authors. The contributions of the thesis start from Corollary 1 and especially include the development of Theorem 2 and the corresponding algorithms.
+
+## Abstract of main article
+This article aims to improve the interpretability of tree-based ensemble learn- ers. For this purpose, we define a series combination, which combines the underlying trees of an ensemble. Applying this method, the existence of prediction equivalent decision trees is proven. However, the resulting com- posed decision tree may easily demonstrate high complexity, therefore we prove the reduction of its order (number of vertices) by eliminating empty vertices and non-empty redundant vertices. Furthermore, general algorithms for iteratively composing decision trees and the reduction of their order are provided, as well as an algorithm, which combines both concepts. In the appendix, a practical implementation of prediction equivalent decision trees is demonstrated in Python.
